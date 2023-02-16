@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "SpotifyBold";
+  src: url(./fonts/GothamBold.ttf);
+}
+
+@font-face {
+  font-family: "SpotifyMedium";
+  src: url(./fonts/GothamMedium.ttf);
+}
+
+@font-face {
+  font-family: "SpotifyLight";
+  src: url(./fonts/GothamLight.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "SpotifyBold", sans-serif;
+  font-weight: 500;
+  color: #b3b3b3;
+}
+
+.components {
+  display: flex;
+}
